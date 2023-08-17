@@ -1,0 +1,86 @@
+.plan-card{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(71, 71, 71, 0.781);
+}
+
+.plan-card h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-card p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-card ul{
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    gap: 10px;
+}
+
+.wvsr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+    height: 100%;
+    background-color: rgba(187, 187, 187, 0.829);
+}
+
+.wordpress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.react{
+    margin-top: -3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.wordpress h2{
+    font-size: 40px;
+    color: #c921a7;
+}
+
+.react h2{
+    font-size: 40px;
+    color: #c921a7;
+}
+
+.wordpress h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.react h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.wordpress p{
+    width: fit-content;
+    padding: .6rem ;
+}
+
+.react p{
+    width: fit-content;
+    padding: .6rem ;
+}
