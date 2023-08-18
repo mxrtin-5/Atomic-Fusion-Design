@@ -10,14 +10,20 @@ import Mantenimiento from './components/Mantenimiento/Mantenimiento';
 import Posicionamiento from './components/Posicionamiento/Posicionamiento';
 import Autoadministrable from './components/Autoadministrable/Autoadministrable';
 import Newsletter from './components/Newsletter/Newsletter';
+import { useState } from 'react';
+
+
+
 function App() {
+
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div>
       <BrowserRouter>
 
 
-        <Navbar />
+        <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
 
 
         <Routes>

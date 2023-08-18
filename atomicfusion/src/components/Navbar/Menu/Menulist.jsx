@@ -1,30 +1,28 @@
-import { useRef } from "react";
+import { useRef} from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import './Menu.css'
-import '../Navbar.css'
 
 
 const Menulist = ({ close }) => {
 
+
     const navRef = useRef();
 
     const showNavbar = () => {
-        navRef.current.classList.toggle(
-            "responsive_nav"
-        )
+        navRef.current.classList.toggle("responsive_nav");
     };
 
     const handleCloseMenu = () => {
         navRef.current.classList.remove("responsive_nav");
-        close(); // Llamar a la función close pasada como prop
+        close()
     };
 
 
     return (
         <div className="nav-container">
 
-            <nav ref={navRef} onClick={(e) => e.stopPropagation()} className={showNavbar ? 'menulist menulist-active' : 'menulist'}>
+            <nav ref={navRef} onClick={handleCloseMenu} className='menulist'>
                 <Link onClick={showNavbar} className="menulist__link active" to="/">Inicio</Link>
                 <Link onClick={showNavbar} className="menulist__link" to="/servicios">Servicios</Link>
                 <Link onClick={showNavbar} className="menulist__link" to="/web-hosting">Web Hosting</Link>
@@ -35,13 +33,13 @@ const Menulist = ({ close }) => {
                 <Link onClick={showNavbar} className="menulist__link" to="/newsletter">Newsletter</Link>
                 <Link onClick={showNavbar} className="menulist__link" to="/contacto">Contacto</Link>
 
-                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                <AiOutlineClose />
-            </button>
+                <button className="nav-btn nav-close-btn" onClick={handleCloseMenu}>
+                    <AiOutlineClose />
+                </button>
 
             </nav>
 
-            
+
 
 
         </div>

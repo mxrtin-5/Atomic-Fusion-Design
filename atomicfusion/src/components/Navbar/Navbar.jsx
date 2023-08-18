@@ -3,10 +3,11 @@ import  Menu  from "./Menu/Menu"
 import './Navbar.css'
 import Menulist from "./Menu/Menulist";
 import { useEffect, useState } from "react";
+import { AiOutlineMenu } from 'react-icons/ai'
 
 
 
-const Navbar = () => {
+const Navbar = ({showMenu, setShowMenu}) => {
 
     const [isMobile, setIsMobile] = useState(false);
 
@@ -33,7 +34,10 @@ const Navbar = () => {
                     </Link> 
                 </h2>
 
-                {isMobile ? <Menu /> : <Menulist />}
+                {isMobile ? <Menu showMenu={showMenu} setShowMenu={setShowMenu} /> : <Menulist />}
+
+                
+            <AiOutlineMenu className="menu-icon" onClick={() => setShowMenu(true)}/>
 
             </div>
         </header>

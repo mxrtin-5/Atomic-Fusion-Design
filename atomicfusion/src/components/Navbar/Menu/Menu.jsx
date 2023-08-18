@@ -1,26 +1,27 @@
 import { useState } from 'react';
-import  Menulist  from './Menulist'
-import '../Navbar.css'
+import Menulist from './Menulist'
 import './Menu.css'
 
 
-const Menu = () => {
-    const [showMenu, setShowMenu] = useState(false);
+const Menu = ({ showMenu, setShowMenu}) => {
+
 
     const handleToggle = () => {
         setShowMenu(!showMenu);
     }
 
-    const handleClose = () => {
-        setShowMenu(false);
-    }
 
-    return ( 
-        <div className={showMenu ? 'menu menu-active' : 'menu'}>
-            <div className={showMenu ? 'menulist menulist-active' : 'menulist'}>
-                <Menulist close={handleClose} />
+    return (
+        <div>
+            <div className={showMenu ? 'menu' : 'menu-active'}>
+                <div className={showMenu ? 'menulist menulist-active' : 'menulist'}>
+                    <Menulist close={handleToggle} />
+                </div>
             </div>
+
+            
         </div>
+
     );
 }
 
