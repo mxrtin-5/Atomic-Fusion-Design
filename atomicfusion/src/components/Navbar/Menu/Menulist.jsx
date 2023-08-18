@@ -1,12 +1,11 @@
 import { useRef } from "react";
 import { AiOutlineClose } from "react-icons/ai";
-import { AiOutlineBars } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import { BsFillCartFill } from "react-icons/bs";
 import './Menu.css'
+import '../Navbar.css'
 
 
-const Menulist = () => {
+const Menulist = ({ close }) => {
 
     const navRef = useRef();
 
@@ -16,29 +15,34 @@ const Menulist = () => {
         )
     };
 
+    const handleCloseMenu = () => {
+        navRef.current.classList.remove("responsive_nav");
+        close(); // Llamar a la función close pasada como prop
+    };
+
+
     return (
         <div className="nav-container">
 
-            <nav ref={navRef} onClick={(e) => e.stopPropagation()} className="menulist">
+            <nav ref={navRef} onClick={(e) => e.stopPropagation()} className={showNavbar ? 'menulist menulist-active' : 'menulist'}>
                 <Link onClick={showNavbar} className="menulist__link active" to="/">Inicio</Link>
                 <Link onClick={showNavbar} className="menulist__link" to="/servicios">Servicios</Link>
-                <Link onClick={showNavbar} className="menulist__link" to="/productos/manguitos">Manguito</Link>
-                <Link onClick={showNavbar} className="menulist__link" to="/productos/combinados">Combinados</Link>
-                <Link onClick={showNavbar} className="menulist__link" to="/productos/agujas">Agujas</Link>
-                <Link onClick={showNavbar} className="menulist__link" to="/productos/rodillos">Rodillo</Link>
+                <Link onClick={showNavbar} className="menulist__link" to="/web-hosting">Web Hosting</Link>
+                <Link onClick={showNavbar} className="menulist__link" to="/web-design">Diseño Web</Link>
+                <Link onClick={showNavbar} className="menulist__link" to="/mantenimiento">Mantenimiento</Link>
+                <Link onClick={showNavbar} className="menulist__link" to="/posicionamiento">SEO</Link>
+                <Link onClick={showNavbar} className="menulist__link" to="/autoadministrable">Webs Autoadministrables</Link>
+                <Link onClick={showNavbar} className="menulist__link" to="/newsletter">Newsletter</Link>
                 <Link onClick={showNavbar} className="menulist__link" to="/contacto">Contacto</Link>
 
-                <button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					<AiOutlineClose />
-			</button>
+                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
+                <AiOutlineClose />
+            </button>
 
             </nav>
 
-            <button onClick={showNavbar} className="nav-btn"><AiOutlineBars/></button>
+            
 
-            <div className="cart-icon"><BsFillCartFill/></div>
 
         </div>
     );

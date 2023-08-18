@@ -54,3 +54,47 @@
 .link-container{
     color: white;
 }
+
+@media (max-width: 768px) {
+    .container-trabajo {
+        max-width: 80%;
+        left: 10%;
+    }
+
+    .p-trabajo {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .trabajo-container-cajas {
+        margin-top: 15px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        font-size: 24px;
+    }
+}
+
+/* Estilos para tabletas y dispositivos medianos */
+@media (max-width: 1024px) {
+    .container-trabajo {
+        max-width: 70%;
+        font-size: 32px;
+    }
+
+    .p-trabajo {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .trabajo-container-cajas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Estilos para dispositivos grandes */
+@media (min-width: 1200px) {
+    .trabajo-container-cajas {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+

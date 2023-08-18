@@ -15,18 +15,24 @@ export const Footer = () =>{
         <footer className='footer'>
             <div className='categories'>
                     <h4>Categorias</h4>
-                    <Link className='categorias' to={'/'}><p className='p-categorias'>Inicio</p></Link>
-                    <Link className='categorias'><p className='p-categorias'>Planes</p></Link>
-                    <Link className='categorias' to={'/contacto'}><p className='p-categorias'>Contacto</p></Link>
+                    <Link className="categorias" to="/">Inicio</Link>
+                    <Link className="categorias" to="/servicios">Servicios</Link>
+                    <Link className="categorias" to="/web-hosting">Web Hosting</Link>
+                    <Link className="categorias" to="/web-design">Diseño Web</Link>
+                    <Link className="categorias" to="/mantenimiento">Mantenimiento</Link>
+                    <Link className="categorias" to="/posicionamiento">SEO</Link>
+                    <Link className="categorias" to="/autoadministrable">Webs Autoadministrables</Link>
+                    <Link className="categorias" to="/newsletter">Newsletter</Link>
+                    <Link className="categorias" to="/contacto">Contacto</Link>
                     
                 </div>
 
             <div className='contactanos'>
                 <h4>Contactanos</h4>
                 <div className='contenedor-contactanos'>
-                    <p className='p-icono'><SiWhatsapp /> 548113917</p>
-                    <p className='p-icono'> <BsTelephoneFill />548113917</p>
-                    <p className='p-icono'> <BiLogoGmail />ejemplo@gmail.com</p>
+                    <p><SiWhatsapp className='p-icono'/> 548113917</p>
+                    <p> <BsTelephoneFill className='p-icono' />548113917</p>
+                    <p> <BiLogoGmail className='p-icono' />ejemplo@gmail.com</p>
                 </div>
                 
             </div>

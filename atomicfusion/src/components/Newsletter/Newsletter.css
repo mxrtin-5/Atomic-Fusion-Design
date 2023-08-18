@@ -1,35 +1,102 @@
-.div-newsletter{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 50%;
-    position: relative;
-    left: 25%;
-}
-
-.div-newsletter h2{
-    font-size: 40px;
-    margin: 40px;
-}
-
-.div-newsletter p{
-    font-size: 20px;
-    margin: 30px;
+.newsletter {
+    background-color: #f7f7f7;
+    padding: 50px 0;
     text-align: center;
 }
 
-.div-newsletter h3{
-    font-size: 30px;
+.div-newsletter {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.div-newsletter ul{
-    margin: 20px;
-    text-align: center;
+.div-newsletter h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.div-newsletter p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.div-newsletter h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.div-newsletter ul {
     list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
 }
 
-.newsletter{
-    background-color: rgba(187, 187, 187, 0.829);
+.div-newsletter li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    color: #444;
+    font-size: 16px;
+}
+
+.div-newsletter li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #c921a7;
+}
+
+.div-newsletter form {
+    margin-top: 30px;
+}
+
+.div-newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.div-newsletter button[type="submit"] {
+    background-color:  #c921a7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.div-newsletter button[type="submit"]:hover {
+    filter: brightness(0.8);
+}
+
+.div-newsletter p:last-child {
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .div-newsletter {
+        padding: 10px;
+    }
+
+    .div-newsletter h2 {
+        font-size: 24px;
+    }
+
+    .div-newsletter h3 {
+        font-size: 20px;
+    }
 }

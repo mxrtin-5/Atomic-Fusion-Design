@@ -1,4 +1,88 @@
-.servicios-page{
-    height: 100%;
+.servicios-page {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
 }
 
+.div-contenedor-servicios {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.h2-plan-servicios {
+    color: #333;
+    font-size: 28px;
+}
+
+.h5-precio-servicios {
+    color: #c921a7;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.pago-servicio {
+    color: #666;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.div-contenedor-descripcion {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.div-contenedor-descripcion p {
+    color: #444;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.h2-solicitud {
+    margin-top: 20px;
+    background-color: #c921a7;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.h2-solicitud .link-solicitud {
+    text-decoration: none;
+    color: #000000;
+}
+
+.h2-solicitud .link-solicitud:hover {
+    filter: brightness(0.8);
+}
+
+@media (max-width: 768px) {
+    .div-contenedor-servicios {
+        padding: 10px;
+    }
+
+    .h2-plan-servicios {
+        font-size: 24px;
+    }
+
+    .h5-precio-servicios {
+        font-size: 20px;
+    }
+
+    .pago-servicio {
+        font-size: 16px;
+    }
+
+    .div-contenedor-descripcion p {
+        font-size: 14px;
+    }
+
+    .h2-solicitud {
+        font-size: 16px;
+    }
+}

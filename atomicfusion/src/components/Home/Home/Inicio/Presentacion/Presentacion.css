@@ -31,5 +31,47 @@
 
 .container-titulo{
     margin-left: 3em;
+}
 
+@media (max-width: 768px) {
+    .container-titulo {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img {
+        display: none; /* Ocultar la imagen en dispositivos pequeños */
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+    }
+}
+
+/* Estilos para tabletas y dispositivos medianos */
+@media (max-width: 1024px) {
+    .img {
+        width: 25vh;
+        height: 45vh;
+        top: 30%;
+        right: 10%;
+    }
+}
+
+/* Estilos para dispositivos grandes */
+@media (min-width: 1200px) {
+    .container-titulo {
+        margin-left: 5em;
+    }
+
+    .img {
+        width: 30vh;
+        height: 50vh;
+        top: 35%;
+        right: 15%;
+    }
 }

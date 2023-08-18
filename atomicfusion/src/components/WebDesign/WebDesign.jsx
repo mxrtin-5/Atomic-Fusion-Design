@@ -3,7 +3,7 @@ import './WebDesign.css'
 
 const WebDesign = () => {
     return (
-        <section>
+        <section className='section-container-web-design'>
             <div className="plan-card">
                 <h3>Wordpress o React</h3>
                 <p>Ofrecemos servicios de creacion de paginas web, con Wordpress y con React</p>

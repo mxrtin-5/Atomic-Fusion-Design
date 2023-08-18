@@ -1,6 +1,4 @@
 .menulist{
-    position: absolute;
-    right: 25%;
     display: flex;
     gap: 25px;
     margin-top: 0.8%;
@@ -30,12 +28,3 @@
 	color: #eee;
 	font-size: 1.8rem
 }
-
-.cart-icon{
-    position: absolute;
-    top: 45%;
-    font-size: 35px;
-    color: white;
-    right: 6em;
-}
-
