@@ -1,0 +1,35 @@
+.div-newsletter{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.div-newsletter h2{
+    font-size: 40px;
+    margin: 40px;
+}
+
+.div-newsletter p{
+    font-size: 20px;
+    margin: 30px;
+    text-align: center;
+}
+
+.div-newsletter h3{
+    font-size: 30px;
+}
+
+.div-newsletter ul{
+    margin: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.newsletter{
+    background-color: rgba(187, 187, 187, 0.829);
+}

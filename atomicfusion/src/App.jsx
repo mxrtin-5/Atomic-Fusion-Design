@@ -6,6 +6,10 @@ import ServiciosPage from './components/ServiciosPage/ServiciosPage';
 import WebHosting from './components/WebHosting/WebHosting';
 import WebDesign from './components/WebDesign/WebDesign';
 import './App.css'
+import Mantenimiento from './components/Mantenimiento/Mantenimiento';
+import Posicionamiento from './components/Posicionamiento/Posicionamiento';
+import Autoadministrable from './components/Autoadministrable/Autoadministrable';
+import Newsletter from './components/Newsletter/Newsletter';
 function App() {
 
   return (
@@ -21,6 +25,10 @@ function App() {
           <Route path='/servicios' element={<ServiciosPage />}/>
           <Route path='/web-hosting' element={<WebHosting />} />
           <Route path='/web-design' element={<WebDesign />} />
+          <Route path='/mantenimiento' element={<Mantenimiento />} />
+          <Route path='/posicionamiento' element={<Posicionamiento />} />
+          <Route path='/autoadministrable' element={<Autoadministrable />} />
+          <Route path='/newsletter' element={<Newsletter />} />
         </Routes>
 
         <Footer />

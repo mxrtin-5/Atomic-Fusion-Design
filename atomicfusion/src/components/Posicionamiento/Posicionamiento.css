@@ -1,0 +1,35 @@
+.posicionamiento-web{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.section-posicionamiento-web{
+    background-color: rgba(187, 187, 187, 0.829);
+}
+
+.posicionamiento-web h2{
+    font-size: 40px;
+    margin: 40px;
+}
+
+.posicionamiento-web p{
+    font-size: 20px;
+    margin: 30px;
+    text-align: center;
+}
+
+.posicionamiento-web h3{
+    font-size: 30px;
+}
+
+.posicionamiento-web ul{
+    margin: 20px;
+    text-align: center;
+    list-style: none;
+}

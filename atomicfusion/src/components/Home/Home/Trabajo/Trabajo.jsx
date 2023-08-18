@@ -22,25 +22,25 @@ const Trabajo = () => {
                         </div>
                     </Link>
 
-                    <Link className='link-container'>
+                    <Link to={'/mantenimiento'} className='link-container'>
                         <div className="caja-servicios">
                             <p>MANTENIMIENTO WEB</p>
                         </div>
                     </Link>
 
-                    <Link className='link-container'>
+                    <Link to={'/posicionamiento'} className='link-container'>
                         <div className="caja-servicios">
                             <p>POSICIONAMIENTO EN BUSCADORES</p>
                         </div>
                     </Link>
 
-                    <Link className='link-container'>
+                    <Link to={'/autoadministrable'} className='link-container'>
                         <div className="caja-servicios">
                             <p>WEBS AUTOADMINISTRABLES</p>
                         </div>
                     </Link>
 
-                    <Link className='link-container'>
+                    <Link to={'/newsletter'} className='link-container'>
                         <div className="caja-servicios">
                             <p>NEWSLETTERS Y COMMUNITY MANAGER</p>
                         </div>
