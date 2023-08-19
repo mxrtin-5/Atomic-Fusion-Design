@@ -1,29 +1,31 @@
 .section-options {
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    flex-direction: column;
-    position: relative;
-    text-align: center;
+    height: auto; /* Evita una altura fija, permitiendo que se ajuste según el contenido */
+    padding: 20px 0; /* Agrega espacio en la parte superior e inferior */
     background-color: rgba(71, 71, 71, 0.781);
+    text-align: center;
+    color: white;
 }
 
 .div-container-opciones {
     margin-top: 5%;
-    gap: 50px;
+    gap: 30px; /* Reduce el espacio entre las opciones */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-size: 30px;
+    grid-template-columns: 1fr; /* Cambia a una columna en dispositivos móviles */
+    font-size: 24px;
 }
 
-.div-container-opciones div{
-    background-color: #c921a7;
-    padding: 20px;
-    border-radius: 30px;
+.div-container-opciones div {
+    background-color: #6e115c;
+    padding: 15px; /* Reduce el relleno para ganar más espacio */
+    border-radius: 20px;
+    margin-bottom: 20px; /* Agrega margen inferior para separar las opciones */
 }
 
-.div-container-opciones div p{
-    font-size: 20px;
+.div-container-opciones div h3 {
+    margin-top: 10px; /* Añade espacio entre el ícono y el título */
+}
+
+.div-container-opciones div p {
+    font-size: 18px; /* Reducción del tamaño de fuente para dispositivos móviles */
+    margin-top: 10px; /* Espacio entre el título y el párrafo */
 }

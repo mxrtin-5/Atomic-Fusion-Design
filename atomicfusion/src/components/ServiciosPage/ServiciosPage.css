@@ -31,7 +31,7 @@
 
 .div-contenedor-descripcion {
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .div-contenedor-descripcion p {
@@ -57,7 +57,7 @@
     color: #000000;
 }
 
-.h2-solicitud .link-solicitud:hover {
+.h2-solicitud:hover {
     filter: brightness(0.8);
 }
 
