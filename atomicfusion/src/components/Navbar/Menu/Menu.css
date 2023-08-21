@@ -33,6 +33,11 @@
     font-size: 1.8rem;
 }
 
+.nav-container{
+    position: fixed;
+    right: 5%;
+}
+
 /* Estilos para dispositivos móviles */
 @media (max-width: 1400px) {
     .menu {
@@ -45,12 +50,9 @@
         display: none;
         opacity: 0;
         transition: all .5s ease-in-out;
-        
-        
     }
 
     .menulist {
-        /* ... tus estilos anteriores ... */
         position: fixed;
         top: 0;
         left: 0;

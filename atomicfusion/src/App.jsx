@@ -11,6 +11,7 @@ import Posicionamiento from './components/Posicionamiento/Posicionamiento';
 import Autoadministrable from './components/Autoadministrable/Autoadministrable';
 import Newsletter from './components/Newsletter/Newsletter';
 import { useState } from 'react';
+import Contacto from './components/Contacto/Contacto';
 
 
 
@@ -35,6 +36,7 @@ function App() {
           <Route path='/posicionamiento' element={<Posicionamiento />} />
           <Route path='/autoadministrable' element={<Autoadministrable />} />
           <Route path='/newsletter' element={<Newsletter />} />
+          <Route path='/contacto' element={<Contacto />} />
         </Routes>
 
         <Footer />
