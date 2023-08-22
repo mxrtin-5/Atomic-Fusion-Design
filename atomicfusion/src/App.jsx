@@ -12,6 +12,9 @@ import Autoadministrable from './components/Autoadministrable/Autoadministrable'
 import Newsletter from './components/Newsletter/Newsletter';
 import { useState } from 'react';
 import Contacto from './components/Contacto/Contacto';
+import PlanPro from './components/Planes/PlanPro/PlanPro';
+import PlanPremium from './components/Planes/PlanPremium/PlanPremium';
+import PlanEmpresas from './components/Planes/PlanEmpresas/PlanEmpresas';
 
 
 
@@ -37,6 +40,9 @@ function App() {
           <Route path='/autoadministrable' element={<Autoadministrable />} />
           <Route path='/newsletter' element={<Newsletter />} />
           <Route path='/contacto' element={<Contacto />} />
+          <Route path='/plan-pro' element={<PlanPro />} />
+          <Route path='/plan-premium' element={<PlanPremium />} />
+          <Route path='/plan-empresas' element={<PlanEmpresas />} />
         </Routes>
 
         <Footer />

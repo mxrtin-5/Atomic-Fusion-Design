@@ -25,7 +25,7 @@ const Servicios = () => {
                         <p>LINK A REDES SOCIALES</p>
                     </div>
 
-                    <button className='solicitud-btn'><Link className='link-solicitud'>SOLICITAR PLAN PRO</Link></button>
+                    <button className='solicitud-btn'><Link  to='/plan-pro' className='link-solicitud'>SOLICITAR PLAN PRO</Link></button>
                 </div>
                 <div className="servicio-box">
                     <h2 className='titulo-servicio'>PREMIUM</h2>
@@ -49,7 +49,7 @@ const Servicios = () => {
                         <p>LINK A REDES SOCIALES</p>
                     </div>
 
-                    <button className='solicitud-btn'><Link className='link-solicitud'>SOLICITAR PLAN PREMIUM</Link></button>
+                    <button className='solicitud-btn'><Link to='/plan-premium' className='link-solicitud'>SOLICITAR PLAN PREMIUM</Link></button>
                 </div>
                 <div className="servicio-box">
                     <h2 className='titulo-servicio'>EMPRESAS</h2>
@@ -78,7 +78,7 @@ const Servicios = () => {
                         <p>LINK A REDES SOCIALES</p>
                     </div>
 
-                    <button className='solicitud-btn'><Link className='link-solicitud'>SOLICITAR PLAN CORP EMPRESAS</Link> </button>
+                    <button className='solicitud-btn'><Link to='/plan-empresas' className='link-solicitud'>SOLICITAR PLAN CORP EMPRESAS</Link> </button>
                 </div>
             </div>
 
