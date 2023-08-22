@@ -30,7 +30,7 @@ const Navbar = ({showMenu, setShowMenu}) => {
             <div className="header_container">
                 <h2 className="title">
                     <Link className="title-content" to={'/'}>
-                        <img className="img-logo" src='../../../public/20230814_105315_0000.png' alt="" />
+                        <img className="img-logo" src='/20230814_105315_0000.png' alt="" />
                     </Link> 
                 </h2>
 

@@ -130,7 +130,7 @@
 }
 
 .login-card input:focus {
-    background: white;
+    background: #cc05a457;
 }
 
 .login-card input {
