@@ -8,80 +8,83 @@ const Servicios = () => {
         <section className="section-servicios">
             <div>
                 <div className="servicio-box">
-                    <h2 className='titulo-servicio'>PRO</h2>
-                    <h5 className='precio-servicio'>ARS $89.990</h5>
-                    <p className='pago-servicio'>Pago unico</p>
-                    <div className='descripcion-servicio'>
-                        <p>SITIO SEGURO - CERTIFICADO SSL</p>
-                        <p>PÁGINA WEB DE 8 SECCIONES</p>
-                        <p>OPTIMIZADO GOOGLE ADWORDS</p>
-                        <p>BANNERS ANIMADOS</p>
-                        <p>MAPA INTERACTIVO</p>
-                        <p>ADAPTABLE A DISPOSITIVOS</p>
-                        <p>MAILS ILIMITADOS</p>
-                        <p>45 IMAGENES</p>
-                        <p>ALTA EN GOOGLE</p>
-                        <p>FORMULARIO DE CONTACTO</p>
-                        <p>LINK A REDES SOCIALES</p>
+                    <h2 className="titulo-servicio">Plan PRO</h2>
+                    <h5 className="precio-servicio">ARS $89.990</h5>
+                    <p className="pago-servicio">Pago único</p>
+                    <div className="descripcion-servicio">
+                        <p>Sitio Seguro con Certificado SSL</p>
+                        <p>Página Web de 8 Secciones</p>
+                        <p>Optimización para Google AdWords</p>
+                        <p>Banners Animados</p>
+                        <p>Mapa Interactivo</p>
+                        <p>Diseño Adaptable a Dispositivos</p>
+                        <p>Mails Ilimitados</p>
+                        <p>45 Imágenes</p>
+                        <p>Alta en Google</p>
+                        <p>Formulario de Contacto</p>
+                        <p>Enlace a Redes Sociales</p>
                     </div>
-
-                    <button className='solicitud-btn'><Link  to='/plan-pro' className='link-solicitud'>SOLICITAR PLAN PRO</Link></button>
+                    <button className="solicitud-btn">
+                        <Link to="/plan-pro" className="link-solicitud">
+                            Solicitar Plan PRO
+                        </Link>
+                    </button>
                 </div>
                 <div className="servicio-box">
-                    <h2 className='titulo-servicio'>PREMIUM</h2>
-                    <h5 className='precio-servicio'>ARS $109.990</h5>
-                    <p className='pago-servicio'>Pago unico</p>
-                    <div className='descripcion-servicio'>
-                        <p>SITIO SEGURO - CERTIFICADO SSL</p>
-                        <p>TIENDA ONLINE O INSTITUCIONAL</p>
-                        <p>PÁGINA WEB DE 15 SECCIONES</p>
-                        <p>CARRITO DE COMPRAS</p>
-                        <p>COBROS ONLINE</p>
-                        <p>HASTA 20 PRODUCTOS</p>
-                        <p>BANNERS ANIMADOS</p>
-                        <p>VIDEO DE FONDO</p>
-                        <p>MAPA INTERACTIVO</p>
-                        <p>ADAPTABLE A DISPOSITIVOS</p>
-                        <p>MAILS ILIMITADOS</p>
-                        <p>150 IMAGENES</p>
-                        <p>ALTA EN GOOGLE</p>
-                        <p>FORMULARIO DE CONTACTO</p>
-                        <p>LINK A REDES SOCIALES</p>
+                    <h2 className="titulo-servicio">Plan Premium</h2>
+                    <h5 className="precio-servicio">ARS $109.990</h5>
+                    <p className="pago-servicio">Pago único</p>
+                    <div className="descripcion-servicio">
+                        <p>Sitio Seguro con Certificado SSL</p>
+                        <p>Tienda Online o Institucional</p>
+                        <p>Página Web de 15 Secciones</p>
+                        <p>Carrito de Compras</p>
+                        <p>Cobros en Línea</p>
+                        <p>Banners Animados</p>
+                        <p>Video de Fondo</p>
+                        <p>Mapa Interactivo</p>
+                        <p>Diseño Adaptable a Dispositivos</p>
+                        <p>Mails Ilimitados</p>
+                        <p>150 Imágenes</p>
+                        <p>Alta en Google</p>
+                        <p>Formulario de Contacto</p>
+                        <p>Enlace a Redes Sociales</p>
                     </div>
-
-                    <button className='solicitud-btn'><Link to='/plan-premium' className='link-solicitud'>SOLICITAR PLAN PREMIUM</Link></button>
+                    <button className="solicitud-btn">
+                        <Link to="/plan-premium" className="link-solicitud">
+                            Solicitar Plan Premium
+                        </Link>
+                    </button>
                 </div>
                 <div className="servicio-box">
-                    <h2 className='titulo-servicio'>EMPRESAS</h2>
-                    <h5 className='precio-servicio'>ARS $129.990</h5>
-                    <p className='pago-servicio'>Pago unico</p>
-                    <div className='descripcion-servicio'>
-                        <p>SISTEMA AUTOADMINISTRABLE</p>
-                        <p>INSTRUCTIVO DE USO</p>
-                        <p>SITIO SEGURO - CERTIFICADO SSL</p>
-                        <p>TIENDA ONLINE O SITIO CORPORATIVO</p>
-                        <p>PÁGINA WEB DE 25 SECCIONES</p>
-                        <p>CHAT ONLINE</p>
-                        <p>DOMINIO.COM</p>
-                        <p>VIDEOS MULTIMEDIA</p>
-                        <p>CARRITO DE COMPRAS</p>
-                        <p>COBROS ONLINE</p>
-                        <p>SIN LIMITE DE PRODUCTOS</p>
-                        <p>BANNERS ANIMADOS</p>
-                        <p>VIDEO DE FONDO</p>
-                        <p>MAPA INTERACTIVO</p>
-                        <p>ADAPTABLE A DISPOSITIVOS</p>
-                        <p>MAILS ILIMITADOS</p>
-                        <p>250 IMAGENES</p>
-                        <p>ALTA EN GOOGLE</p>
-                        <p>FORMULARIO DE CONTACTO</p>
-                        <p>LINK A REDES SOCIALES</p>
+                    <h2 className="titulo-servicio">Plan Empresas</h2>
+                    <h5 className="precio-servicio">ARS $129.990</h5>
+                    <p className="pago-servicio">Pago único</p>
+                    <div className="descripcion-servicio">
+                        <p>Sitio Seguro con Certificado SSL</p>
+                        <p>Tienda Online o Sitio Corporativo</p>
+                        <p>Página Web de 25 Secciones</p>
+                        <p>Dominio .com</p>
+                        <p>Videos Multimedia</p>
+                        <p>Carrito de Compras</p>
+                        <p>Cobros en Línea</p>
+                        <p>Diseño Adaptable a Dispositivos</p>
+                        <p>Mails Ilimitados</p>
+                        <p>Sin Límite de Productos</p>
+                        <p>Banners Animados</p>
+                        <p>Video de Fondo</p>
+                        <p>Mapa Interactivo</p>
+                        <p>Alta en Google</p>
+                        <p>Formulario de Contacto</p>
+                        <p>Enlace a Redes Sociales</p>
                     </div>
-
-                    <button className='solicitud-btn'><Link to='/plan-empresas' className='link-solicitud'>SOLICITAR PLAN CORP EMPRESAS</Link> </button>
+                    <button className="solicitud-btn">
+                        <Link to="/plan-empresas" className="link-solicitud">
+                            Solicitar Plan Empresas
+                        </Link>{" "}
+                    </button>
                 </div>
             </div>
-
         </section>
     );
 }

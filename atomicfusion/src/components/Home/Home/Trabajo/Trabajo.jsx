@@ -6,61 +6,71 @@ const Trabajo = () => {
     return (
         <section className="section-trabajo">
             <div className="container-trabajo">
-                <h2 data-aos="zoom-out-down"
+                <h2
+                    data-aos="zoom-out-down"
                     data-aos-delay="50"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
-                    data-aos-once="false" className='h2-trabajo'>Nuestro trabajo</h2>
-                <p data-aos="zoom-out-down"
+                    data-aos-once="false"
+                    className="h2-trabajo"
+                >
+                    Nuestro Trabajo y Servicios
+                </h2>
+                <p
+                    data-aos="zoom-out-down"
                     data-aos-delay="50"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
-                    data-aos-once="false" className='p-trabajo'>Realizamos proyectos web a medida, fruto de un exhaustivo análisis previo de necesidades. Sin plantillas predefinidas y aportando todos nuestros conocimientos en cuanto a usabilidad, posicionamiento orgánico (SEO), tendencias en diseño de interfaces gráficos, adaptabilidad contenidos a distintos dispositivos (PC, tablets, smartphones, …) con diseños líquidos (responsive).</p>
+                    data-aos-once="false"
+                    className="p-trabajo"
+                >
+                    Transformamos ideas en proyectos web a medida. Analizamos tus necesidades y creamos soluciones únicas y adaptadas. Nuestro enfoque abarca usabilidad, SEO, diseño a la vanguardia y compatibilidad con múltiples dispositivos.
+                </p>
 
-                <div data-aos="flip-left"
+                <div
+                    data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
-                    data-aos-duration="2000" className='trabajo-container-cajas'>
-                    <Link to={'/web-hosting'} className='link-container'>
+                    data-aos-duration="2000"
+                    className="trabajo-container-cajas"
+                >
+                    <Link to={'/web-hosting'} className="link-container">
                         <div className="caja-servicios">
-                            <p>WEB HOSTING</p>
+                            <p>Servicio de Hosting Web</p>
                         </div>
                     </Link>
 
-                    <Link to={'/web-design'} className='link-container'>
+                    <Link to={'/web-design'} className="link-container">
                         <div className="caja-servicios">
-                            <p>DISEÑO DE SITIOS WEB</p>
+                            <p>Diseño de Sitios Web</p>
                         </div>
                     </Link>
 
-                    <Link to={'/mantenimiento'} className='link-container'>
+                    <Link to={'/mantenimiento'} className="link-container">
                         <div className="caja-servicios">
-                            <p>MANTENIMIENTO WEB</p>
+                            <p>Mantenimiento Web</p>
                         </div>
                     </Link>
 
-                    <Link to={'/posicionamiento'} className='link-container'>
+                    <Link to={'/posicionamiento'} className="link-container">
                         <div className="caja-servicios">
-                            <p>POSICIONAMIENTO EN BUSCADORES</p>
+                            <p>Posicionamiento en Buscadores</p>
                         </div>
                     </Link>
 
-                    <Link to={'/autoadministrable'} className='link-container'>
+                    <Link to={'/autoadministrable'} className="link-container">
                         <div className="caja-servicios">
-                            <p>WEBS AUTOADMINISTRABLES</p>
+                            <p>Webs Autoadministrables</p>
                         </div>
                     </Link>
 
-                    <Link to={'/newsletter'} className='link-container'>
+                    <Link to={'/newsletter'} className="link-container">
                         <div className="caja-servicios">
-                            <p>NEWSLETTERS Y COMMUNITY MANAGER</p>
+                            <p>Newsletters y Community Manager</p>
                         </div>
                     </Link>
-
                 </div>
-
-
             </div>
         </section>
     );
