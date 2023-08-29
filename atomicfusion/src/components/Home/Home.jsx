@@ -1,6 +1,5 @@
 import Inicio from "./Home/Inicio/Inicio";
 import Presentacion from "./Home/Inicio/Presentacion/Presentacion";
-import './Home.css'
 import Servicios from "./Home/Servicios/Servicios";
 import Trabajo from "./Home/Trabajo/Trabajo";
 import Options from "./Home/Options/Options";

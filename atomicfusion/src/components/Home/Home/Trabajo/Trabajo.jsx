@@ -6,10 +6,22 @@ const Trabajo = () => {
     return (
         <section className="section-trabajo">
             <div className="container-trabajo">
-                <h2 className='h2-trabajo'>Nuestro trabajo</h2>
-                <p className='p-trabajo'>Realizamos proyectos web a medida, fruto de un exhaustivo análisis previo de necesidades. Sin plantillas predefinidas y aportando todos nuestros conocimientos en cuanto a usabilidad, posicionamiento orgánico (SEO), tendencias en diseño de interfaces gráficos, adaptabilidad contenidos a distintos dispositivos (PC, tablets, smartphones, …) con diseños líquidos (responsive).</p>
+                <h2 data-aos="zoom-out-down"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false" className='h2-trabajo'>Nuestro trabajo</h2>
+                <p data-aos="zoom-out-down"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false" className='p-trabajo'>Realizamos proyectos web a medida, fruto de un exhaustivo análisis previo de necesidades. Sin plantillas predefinidas y aportando todos nuestros conocimientos en cuanto a usabilidad, posicionamiento orgánico (SEO), tendencias en diseño de interfaces gráficos, adaptabilidad contenidos a distintos dispositivos (PC, tablets, smartphones, …) con diseños líquidos (responsive).</p>
 
-                <div className='trabajo-container-cajas'>
+                <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000" className='trabajo-container-cajas'>
                     <Link to={'/web-hosting'} className='link-container'>
                         <div className="caja-servicios">
                             <p>WEB HOSTING</p>
